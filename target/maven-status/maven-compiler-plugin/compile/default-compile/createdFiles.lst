@@ -1,0 +1,6 @@
+com\github\swathing\lakelogin\bungee\Bungee.class
+com\github\swathing\lakelogin\commands\Commands.class
+com\github\swathing\lakelogin\commands\login\RegisterCommand.class
+com\github\swathing\lakelogin\commands\login\LoginCommand.class
+com\github\swathing\lakelogin\database\MySQLDatabase.class
+com\github\swathing\lakelogin\Main.class
