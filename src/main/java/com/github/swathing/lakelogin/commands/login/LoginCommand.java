@@ -39,6 +39,7 @@ public class LoginCommand extends Commands {
             if(profile.isPasswordCorrect(args[0])) {
                 EnumSound.LEVEL_UP.play(p, 0.5F, 1.0F);
                 p.sendMessage("§aLogin concluído! Bem-vindo ao servidor!");
+                p.sendTitle(" ", " ");
                 getInstance().getDatabase().updatePlayerInfo(p, "ipaddress", p.getAddress().getHostString());
                 profile.login();
             } else {
